@@ -1,0 +1,422 @@
+	/* reset margin and padding of body and html */
+html,body 
+{
+   padding:0;
+   margin:0;
+   background:black;
+   color:#206AC9;
+   font-family: 'Lato', 'sans-serif';
+}
+
+	/* allows us to scale all panels inside to full width and height */
+#cont 
+{ 
+	position:absolute;
+	height:100%;
+	width:100%;
+}
+
+	/* make all panels fullpage  */
+.panels 
+{ 
+	position:relative;
+	height:110%;
+	min-height:100%;
+	width:100%;
+}
+
+/*START OF SIDEBAR*/
+
+#sidebar
+{
+	position:fixed;
+	width:10%;
+	right:20px;
+	top:25%;
+	color:white;
+	background-color:black;
+	border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#sidebar ul
+{
+	margin:0;
+	padding:0;
+	width:100%;
+	display:block;
+	list-style:none;
+}
+
+#sidebar ul li
+{
+
+	padding:30px 0;
+	text-align:center;
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+#sidebar ul li a
+{
+	display:block;
+	color:white;
+	text-decoration:none;
+}
+
+#sidebar ul li:hover
+{
+	background-color:#206AC9;
+	display:block;
+}
+
+/*END OF SIDEBAR*/
+
+/* this is the fixed first panel */
+#a
+{ 
+	position:fixed;
+	top:0;
+	left:0;
+}
+
+	/* the second panel -> after the first fixed panel */
+	/* should get 100% top margin, thats the trick */
+#b
+{ 
+	margin-top:100%;
+	background:#FDF3D1;
+	min-height:120%
+}
+
+#c
+{
+    background:white;
+}
+
+#d
+{
+	background:#FDF3D1;
+}
+
+#e
+{
+    background:white;
+}
+
+#f
+{
+	background:#FDF3D1;
+}
+
+.title
+{
+	text-align:center;
+	font-weight:30px;
+	font-size:50px
+}
+
+
+/* EVERYTHING IN #B */
+#about
+{	
+	width:70%;
+	margin-left:15%;
+}
+
+.para
+{
+	width:55%;
+	float:left;
+	line-height:150%;
+	font-size:18px;
+}
+
+.pic
+{
+	width:35%;
+	float:right;
+}
+
+/* EVERYTHING IN #B */
+
+/* EVERYTHING IN #C */
+#education
+{	
+	width:70%;
+	margin-left:15%;
+}
+
+.h5 /* suny albany*/
+{
+	background:black;
+	height:75px;
+	width:50%;
+	text-align:center;
+	color:white;
+	cursor:pointer;	
+}
+
+.h5 p
+{
+	padding-top:25px;
+}
+
+.h6 /* ranger college */
+{
+	background:black;
+	height:75px;
+	width:50%;
+	text-align:center;
+	color:white;
+	cursor:pointer;	
+}
+
+.h6 p
+{
+	padding-top:25px;
+}
+
+.h7 /* clarkstown north*/
+{
+	background:black;
+	height:75px;
+	width:50%;
+	text-align:center;
+	color:white;
+	cursor:pointer;	
+}
+
+.h7 p
+{
+	padding-top:25px;
+}
+
+.h5:hover
+{
+	background:#FFFF00;
+	color:#990099;
+}
+
+.h6:hover
+{
+	background:#990099;
+	color:white;
+}
+
+.h7:hover
+{
+	background:#990099;
+	color:#E6E600;
+}
+
+.info5
+{
+	width:400px;
+	display:none;
+}
+
+.info6
+{
+	width:400px;
+	display:none;
+}
+
+.info7
+{
+	width:400px;
+	display:none;
+}
+
+/* EVERYTHING IN #C */
+
+/* EVERYTHING IN #D */
+
+.dropcont
+{
+	width:70%;
+	height:800px;
+	margin-left:15%;
+}
+
+.leftside
+{
+	width:45%;
+	float:left;
+}
+
+.rightside
+{
+	width:45%;
+	float:right;
+}
+
+.h1 /* cvs */
+{
+	background:black;
+	height:75px;
+	width:100%;
+	text-align:center;
+	color:white;
+	cursor:pointer;
+}
+
+.h1 p
+{
+	padding-top:25px;
+}
+
+.h2 /* westchester burger */
+{
+	background:black;
+	height:75px;
+	width:100%;
+	text-align:center;
+	color:white;
+	cursor:pointer;
+	
+}
+.h2 p
+{
+	padding-top:25px;
+}
+
+.h3 /* gate hill*/
+{
+	background:black;
+	height:75px;
+	width:100%;
+	text-align:center;
+	color:white;
+	cursor:pointer;
+}
+.h3 p
+{
+	padding-top:25px;
+}
+
+.h4 /* abercrombie*/
+{
+	background:black;
+	height:75px;
+	width:100%;
+	text-align:center;
+	color:white;
+	cursor:pointer;
+}
+.h4 p
+{
+	padding-top:25px;
+}
+
+.h1:hover
+{
+	background:#CC0000;
+}
+
+.h2:hover
+{
+	background:#FF9900;
+}
+
+.h3:hover
+{
+	background:#00A300;
+}
+
+.h4:hover
+{
+	background:#008AE6;
+}
+
+.info1
+{
+	height:100%;
+	width:100%;
+	display:none;
+}
+
+.info2
+{
+	height:100%;
+	width:100%;
+	display:none;
+}
+
+.info3
+{
+	height:100%;
+	width:100%;
+	display:none;
+}
+
+.info4
+{
+	height:100%;
+	width:100%;
+	display:none;
+}
+
+/* EVERYTHING IN #D */
+
+/* EVERYTHING IN #E */
+
+.skills
+{
+	width:70%;
+	margin-left:15%;
+}
+#table1
+{
+	height:100%;
+	width:40%;
+	float:left;
+	line-height:200%;
+}
+
+#table2
+{
+	height:100%;
+	width:40%;
+	float:right;
+	line-height:200%;
+}
+
+#table1 tr:hover
+{
+	background-color:#E6E6E6;
+}
+
+#table2 tr:hover
+{
+	background-color:#E6E6E6;
+}
+
+
+
+/* EVERYTHING IN #E */
+
+.contact
+{
+	width:70%;
+	margin-left:15%;
+	text-align:center;
+	line-height:300%;
+	font-size:24px;
+}
+
+#footer_box
+{
+	bottom:0px;
+	background-color:#292929;
+	height:120px;
+}
+
+#footer
+{
+	padding:10px;
+	color:white;
+	text-align:center;
+}
