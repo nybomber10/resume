@@ -237,7 +237,7 @@ html,body
 .dropcont
 {
 	width:70%;
-	height:800px;
+	min-height:100%;
 	margin-left:15%;
 }
 
@@ -245,12 +245,14 @@ html,body
 {
 	width:45%;
 	float:left;
+	min-height:100%;
 }
 
 .rightside
 {
 	width:45%;
 	float:right;
+	min-height:100%;
 }
 
 .h1 /* cvs */
@@ -311,6 +313,20 @@ html,body
 	padding-top:25px;
 }
 
+.h8 /* Indoor 365*/
+{
+	background:black;
+	height:75px;
+	width:100%;
+	text-align:center;
+	color:white;
+	cursor:pointer;
+}
+.h8 p
+{
+	padding-top:25px;
+}
+
 .h1:hover
 {
 	background:#CC0000;
@@ -329,6 +345,11 @@ html,body
 .h4:hover
 {
 	background:#008AE6;
+}
+
+.h8:hover
+{
+	background:#CC0000;
 }
 
 .info1
@@ -353,6 +374,13 @@ html,body
 }
 
 .info4
+{
+	height:100%;
+	width:100%;
+	display:none;
+}
+
+.info8
 {
 	height:100%;
 	width:100%;
