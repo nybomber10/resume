@@ -394,8 +394,6 @@ html,body
 	background-color:#E6E6E6;
 }
 
-
-
 /* EVERYTHING IN #E */
 
 .contact
@@ -409,9 +407,9 @@ html,body
 
 #footer_box
 {
-	bottom:0px;
+	position:relative;
 	background-color:#292929;
-	height:120px;
+	height:110px;
 }
 
 #footer
